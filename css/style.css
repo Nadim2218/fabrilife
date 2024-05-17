@@ -1,0 +1,1480 @@
+    /* common css start */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    img {
+        vertical-align: middle;
+    }
+    /* common css end */
+    
+    body {
+        background-color: white;
+        overflow-x: hidden;
+    }
+    
+    .main-bg button {
+        padding: 10px 10px;
+        margin-left: 309px;
+        background-color: rgba(0, 0, 0, 0.381);
+        color: gray;
+        border: #afb0bc;
+    }
+    
+    .nav-text-input {
+        width: 600px;
+        margin-left: -182px;
+    }
+    
+    .cart {
+        margin-left: 50px;
+    }
+    
+    .cart i {
+        font-size: 25px;
+        color: black;
+        padding-top: 2px;
+    }
+    
+    .cart i:hover {
+        font-size: 28px;
+        color: blue;
+    }
+    
+    .main-bg span button {
+        margin-left: 1px;
+        color: white;
+    }
+    
+    .mob-none {
+        display: none;
+    }
+    
+    .logo img {
+        width: 70%;
+        padding-top: 25px;
+    }
+    
+    .navbar {
+        background-color: white;
+        padding: 10px 0;
+        height: 70px;
+    }
+    
+    .navbar-toggler-icon {
+        background-color: white !important;
+    }
+    
+    .navbar-brand {
+        width: 20%;
+    }
+    
+    .exclusive {
+        padding: 3px 6px;
+        background-color: #333333;
+    }
+    
+    .nav-exclusive {
+        background-color: #ebebeb;
+    }
+    
+    .exclusive h5 {
+        font-size: 16px;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        position: relative;
+    }
+    
+    .exclusive h5::after {
+        position: absolute;
+        content: '';
+        height: 3px;
+        width: calc(100% - 0px);
+        background-color: white;
+        bottom: -2px;
+        left: 0;
+        opacity: 0;
+        transition: all 0.4s;
+    }
+    
+    .exclusive h5:hover::after {
+        opacity: 1;
+    }
+    
+    .exclusive span {
+        color: darkorange;
+    }
+    
+    .exclusive a {
+        color: white;
+        font-size: 15px;
+    }
+    
+    .ex-main {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .ex-order {
+        background-color: green;
+        padding: 6px 30px;
+        cursor: pointer;
+    }
+    
+    .ex-order a {
+        font-size: 12px;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    .ex-bd {
+        background-color: #e5e5e5;
+        padding: 5px 30px;
+        cursor: pointer;
+    }
+    
+    .ex-bd a {
+        font-size: 14px;
+        color: black;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .ex-help {
+        padding: 5px 30px;
+        cursor: pointer;
+    }
+    
+    .ex-help a {
+        font-size: 14px;
+        color: black;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .dropdown {
+        display: inline-block;
+        position: relative;
+        z-index: 111;
+    }
+    
+    button {
+        border: none;
+        border-radius: 5px;
+        padding: 3px 30px;
+        font-size: 14px;
+        cursor: pointer;
+        color: blue;
+    }
+    
+    button:hover {
+        background-color: #ddd;
+    }
+    
+    .dropdown-options {
+        display: none;
+        position: absolute;
+        overflow: auto;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+        top: 28px;
+        right: 12px;
+    }
+    
+    .dropdown:hover .dropdown-options {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.721);
+        color: white;
+    }
+    
+    .dropdown-options a {
+        display: block;
+        color: #000000;
+        padding: 5px;
+        text-decoration: none;
+        padding: 10px 15px;
+    }
+    
+    .dropdown-options a:hover {
+        color: #0a0a23;
+        background-color: #ddd;
+        border-radius: 5px;
+    }
+    
+    .dropdown-options a {
+        color: white;
+    }
+    /* ///////////////////////////////// */
+    
+    .dropdown1 {
+        display: inline-block;
+        position: relative;
+        z-index: 111;
+    }
+    
+    button {
+        border: none;
+        border-radius: 5px;
+        padding: 3px 30px;
+        font-size: 14px;
+        cursor: pointer;
+        color: blue;
+    }
+    
+    button:hover {
+        background-color: #ddd;
+    }
+    
+    .dropdown-options1 {
+        display: none;
+        position: absolute;
+        overflow: auto;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+        top: 25px;
+        right: -159px;
+        width: 450px;
+        height: 300px;
+    }
+    
+    .dropdown1:hover .dropdown-options1 {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.721);
+        color: white;
+    }
+    
+    .dropdown-options1 a {
+        display: block;
+        color: #000000;
+        padding: 5px;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+    
+    .dropdown-options1 a:hover {
+        color: #0a0a23;
+        background-color: #ddd;
+        border-radius: 5px;
+    }
+    
+    .dropdown-options1 a {
+        color: white;
+    }
+    
+    .menurow {
+        display: flex;
+    }
+    
+    .r11 {
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+    }
+    /* nav part end */
+    /* banner part start */
+    
+    .banner-imgg {
+        display: none;
+    }
+    
+    .banner-img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .banner-img img {
+        width: 100%;
+        height: 100%;
+    }
+    /* banner end */
+    /* catergory part start */
+    
+    #categories {
+        width: 100%;
+        padding: 10px 70px;
+        background-color: #ebebeb;
+        margin-top: 10px;
+    }
+    
+    .category-main {
+        /* padding: 20px 20px; */
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .category-main a {
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #333333;
+        padding-top: 5px;
+    }
+    
+    .categori {
+        display: flex;
+        width: 100%;
+    }
+    
+    .categori span {
+        padding-top: 5px;
+    }
+    
+    .categori a img {
+        width: 100px;
+    }
+    /* category part end */
+    /* event part start */
+    
+    #event {
+        padding: 10px 0;
+    }
+    
+    .event-text {
+        padding: 10px 10px;
+        background-color: #E0F7FA;
+        text-align: center;
+    }
+    
+    .event-text a {
+        font-size: 18px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+    }
+    
+    .event-text span {
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: black;
+    }
+    /* event part end */
+    /* new arrival part start */
+    
+    .new-head {
+        padding: 30px 0;
+        background-color: #cc811945;
+        text-align: center;
+    }
+    
+    .new-head a {
+        font-size: 21px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #cc8119;
+    }
+    
+    .new-main {
+        padding-top: 20px;
+    }
+    
+    .tn-pos {
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .tn-img {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .tn-img img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+    
+    .tn-text {
+        text-align: center;
+    }
+    
+    .tn-text p {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 13px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        background-color: white;
+        padding: 0 3px 3px 3px;
+        width: 130px;
+        border: 2px solid white;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    /* new arrival part end */
+    /* catone part start */
+    
+    #cate-one {
+        padding: 20px 0;
+    }
+    
+    .cateone-pos {
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .cateone-img {
+        width: 100%;
+        height: 350px;
+    }
+    
+    .cateone-img img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+    
+    .cateone-text {
+        text-align: center;
+    }
+    
+    .cateone-text p {
+        position: absolute;
+        content: '';
+        bottom: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 21px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        color: white;
+        font-style: normal;
+        padding: 0 3px 3px 3px;
+        width: 250px;
+    }
+    /* cateone part end */
+    /* tshirt price part start */
+    
+    #tshirt-p {
+        padding: 20px 0;
+    }
+    
+    .tp-pos {
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .tp-img {
+        width: 100%;
+        height: 350px;
+    }
+    
+    .tp-img img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+    
+    .tp-text {
+        text-align: center;
+    }
+    
+    .tp-text p {
+        position: absolute;
+        content: '';
+        bottom: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 21px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        color: white;
+        font-style: normal;
+        padding: 0 3px 3px 3px;
+        width: 250px;
+    }
+    
+    .tsp-pos {
+        position: relative;
+        margin-top: 20px;
+        height: 100%;
+    }
+    
+    .tsp-img {
+        width: 100%;
+        height: 165px;
+    }
+    
+    .tsp-img img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+    
+    .tsp-text {
+        text-align: center;
+    }
+    
+    .tsp-text p {
+        position: absolute;
+        content: '';
+        bottom: -14px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 13px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        background-color: white;
+        padding: 0 3px 3px 3px;
+        width: 130px;
+        border: 2px solid white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .tsp-text s {
+        color: silver;
+    }
+    
+    .view-more a {
+        position: absolute;
+        content: '';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        padding: 0 3px 3px 3px;
+        width: 130px;
+        border: 2px solid white;
+    }
+    /* tshirt price end */
+    /* fab-content */
+    
+    #fabr-content {
+        padding: 50px 0;
+    }
+    
+    .fabr-text {
+        padding: 20px 0;
+    }
+    
+    .fabr-text h1 {
+        font-size: 40px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+    }
+    
+    .fabr-text h3 {
+        font-size: 25px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+    }
+    
+    .fabr-text span {
+        font-size: 30px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: green;
+    }
+    
+    .fabr-text p {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: darkgray;
+    }
+    
+    .fabr-img {
+        width: 100%;
+    }
+    
+    .fabr-img img {
+        width: 100%;
+    }
+    /* fab-content end */
+    /* jacket price list */
+    
+    #jacket-p {
+        padding: 20px 0;
+    }
+    
+    .jacketp-pos {
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .jacketp-img {
+        width: 100%;
+        height: 350px;
+    }
+    
+    .jacketp-img img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+    
+    .jacketp-text {
+        text-align: center;
+    }
+    
+    .jacketp-text p {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 21px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        color: white;
+        font-style: normal;
+        padding: 0 3px 3px 3px;
+        width: 250px;
+    }
+    
+    .jacketpp-pos {
+        position: relative;
+        margin-top: 20px;
+        height: 100%;
+    }
+    
+    .jacketpp-img {
+        width: 100%;
+        height: 165px;
+    }
+    
+    .jacketpp-img img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+    
+    .jacketpp-text {
+        text-align: center;
+    }
+    
+    .jacketpp-text p {
+        position: absolute;
+        content: '';
+        bottom: -14px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 13px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        background-color: white;
+        padding: 0 3px 3px 3px;
+        width: 130px;
+        border: 2px solid white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .jacketpp-text s {
+        color: silver;
+    }
+    
+    .view-more a {
+        position: absolute;
+        content: '';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        padding: 0 3px 3px 3px;
+        width: 130px;
+        border: 2px solid white;
+    }
+    /* jacket price list end */
+    /* polo part start */
+    
+    #poloo-one {
+        padding: 20px 0;
+    }
+    
+    .polo-pos {
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .polo-img {
+        width: 100%;
+        height: 350px;
+    }
+    
+    .polo-img img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+    
+    .polo-text {
+        text-align: center;
+    }
+    
+    .polo-text p {
+        position: absolute;
+        content: '';
+        bottom: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 21px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        color: white;
+        font-style: normal;
+        padding: 0 3px 3px 3px;
+        width: 250px;
+    }
+    /* polo part end */
+    /* shorts part start */
+    
+    #shortss {
+        padding: 20px 0;
+    }
+    
+    .shortp-pos {
+        position: relative;
+        margin-top: 20px;
+        height: 100%;
+    }
+    
+    .shortp-img {
+        width: 100%;
+        height: 165px;
+    }
+    
+    .shortp-img img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+    
+    .shortp-text {
+        text-align: center;
+    }
+    
+    .shortp-text p {
+        position: absolute;
+        content: '';
+        bottom: -14px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 13px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        background-color: white;
+        padding: 0 3px 3px 3px;
+        width: 130px;
+        border: 2px solid white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .shortp-text s {
+        color: silver;
+    }
+    
+    .view-more a {
+        position: absolute;
+        content: '';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: black;
+        padding: 0 3px 3px 3px;
+        width: 130px;
+        border: 2px solid white;
+    }
+    
+    .men-short a {
+        position: absolute;
+        content: '';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 22px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+        padding: 0 3px 3px 3px;
+        width: 130px;
+    }
+    /* shorts part end */
+    /* trouser part start */
+    
+    #trousers {
+        padding: 20px 0;
+    }
+    
+    .trouser-pos {
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .trouser-img {
+        width: 100%;
+        height: 350px;
+    }
+    
+    .trouser-img img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+    
+    .trouser-text {
+        text-align: center;
+    }
+    
+    .trouser-text p {
+        position: absolute;
+        content: '';
+        bottom: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 21px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        color: white;
+        font-style: normal;
+        padding: 0 3px 3px 3px;
+        width: 250px;
+    }
+    /* trouser part end */
+    /* sport tshirt part start */
+    
+    #sporttshirt-p {
+        padding: 20px 0;
+    }
+    
+    .sporttshirt-pos {
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .sporttshirts-img {
+        width: 100%;
+        height: 350px;
+    }
+    
+    .sporttshirts-img img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+    
+    .sporttshirts-text {
+        text-align: center;
+    }
+    
+    .sporttshirts-text p {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 21px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        color: white;
+        font-style: normal;
+        padding: 0 3px 3px 3px;
+        width: 250px;
+    }
+    
+    .sporttshirt-pos {
+        position: relative;
+        margin-top: 20px;
+        height: 100%;
+    }
+    
+    .sporttshirt-img {
+        width: 100%;
+        height: 165px;
+    }
+    
+    .sporttshirt-img img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+    
+    .sporttshirt-text {
+        text-align: center;
+    }
+    
+    .sporttshirt-text p {
+        position: absolute;
+        content: '';
+        bottom: -14px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 13px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        background-color: white;
+        padding: 0 3px 3px 3px;
+        width: 130px;
+        border: 2px solid white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .sporttshirt-text s {
+        color: silver;
+    }
+    /* sport tshirt part end */
+    /* mask part start */
+    
+    #mask-p {
+        padding: 20px 0;
+    }
+    
+    .mask-pos {
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .mask-img {
+        width: 100%;
+        height: 350px;
+    }
+    
+    .mask-img img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+    
+    .mask-text {
+        text-align: center;
+    }
+    
+    .mask-text p {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 21px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        color: white;
+        font-style: normal;
+        padding: 0 3px 3px 3px;
+        width: 250px;
+    }
+    
+    .masks-pos {
+        position: relative;
+        margin-top: 20px;
+        height: 100%;
+    }
+    
+    .masks-img {
+        width: 100%;
+        height: 165px;
+    }
+    
+    .masks-img img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+    
+    .masks-text {
+        text-align: center;
+    }
+    
+    .masks-text p {
+        position: absolute;
+        content: '';
+        bottom: -14px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 13px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        background-color: white;
+        padding: 0 3px 3px 3px;
+        width: 130px;
+        border: 2px solid white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .masks-text s {
+        color: silver;
+    }
+    /* mask part end */
+    /* socks part start */
+    
+    .sock-head {
+        padding: 15px 0;
+        background-color: #ccf7f1;
+        text-align: center;
+    }
+    
+    .sock-head a p {
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #009688;
+    }
+    
+    .sock-head a h3 {
+        font-size: 27px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #009688;
+    }
+    
+    .sock-head a span {
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #009688;
+    }
+    
+    #socks {
+        padding: 20px 0;
+    }
+    
+    .sock-pos {
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .sock-img {
+        width: 100%;
+        height: 350px;
+    }
+    
+    .sock-img img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+    
+    .sock-text {
+        text-align: center;
+    }
+    
+    .sock-text p {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 21px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        color: white;
+        font-style: normal;
+        padding: 0 3px 3px 3px;
+        width: 250px;
+    }
+    
+    .socks-pos {
+        position: relative;
+        margin-top: 20px;
+        height: 100%;
+    }
+    
+    .socks-img {
+        width: 100%;
+        height: 165px;
+    }
+    
+    .socks-img img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 10px;
+    }
+    
+    .socks-text {
+        text-align: center;
+    }
+    
+    .socks-text p {
+        position: absolute;
+        content: '';
+        bottom: -14px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 13px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        background-color: white;
+        padding: 0 3px 3px 3px;
+        width: 130px;
+        border: 2px solid white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .socks-text s {
+        color: silver;
+    }
+    /* socks part end */
+    /* bulk part start */
+    
+    #bulk {
+        padding: 20px 10px;
+        background-color: #eaeaea;
+    }
+    
+    .bulk-text {
+        padding: 20px 0;
+    }
+    
+    .bulk-text a h2 {
+        font-size: 30px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #4a96d3;
+    }
+    
+    .bulk-text a p {
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+    }
+    
+    .bulk-text a span {
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: green;
+    }
+    
+    .bulk-img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .bulk-img img {
+        width: 100%;
+        height: 80%;
+        padding: 0 !important;
+    }
+    /* bulk part end */
+    /* work part start */
+    
+    #work {
+        padding: 30px 0;
+    }
+    
+    .work-text h2 {
+        font-size: 30px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-bottom: 10px;
+    }
+    
+    .work-text h4 {
+        font-size: 22px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    .work-text p {
+        font-size: 17px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .work-text h4 img {
+        width: 20%;
+    }
+    /* work part end */
+    /* company part start */
+    
+    .c-img img {
+        width: 60%;
+    }
+    
+    .c-img {
+        /* height: 300px; */
+        padding: 50px;
+    }
+    
+    #company {
+        position: relative;
+        /* padding-bottom: 50px; */
+        padding: 30px 0;
+    }
+    
+    .prev {
+        position: absolute;
+        top: 188px;
+        left: 55px;
+        font-size: 30px;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    
+    .next {
+        position: absolute;
+        top: 188px;
+        right: 45px;
+        font-size: 30px;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    
+    .prev:hover {
+        color: red;
+    }
+    
+    .next:hover {
+        color: red;
+    }
+    /* company part end */
+    /* join part start */
+    
+    #join {
+        padding: 20px 0;
+    }
+    
+    .join-image {
+        width: 100%;
+        height: 200px;
+        position: relative;
+    }
+    
+    .join-pos {
+        position: relative;
+        margin-top: 20px;
+        height: 100%;
+    }
+    
+    .join-image img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .join-text {
+        position: absolute;
+        content: '';
+        top: 37px;
+        right: 124px;
+        text-align: end;
+    }
+    
+    .join-text h3 {
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #545454;
+    }
+    
+    .join-text h1 {
+        font-size: 35px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #2b9c94;
+    }
+    /* join part end */
+    /* payment part start */
+    
+    #payment {
+        padding: 20px 0;
+        background-color: #f3f3f3;
+    }
+    
+    .pay {
+        width: 100%;
+    }
+    
+    .pay img {
+        width: 100%;
+    }
+    
+    .pay h3 {
+        font-size: 25px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    .pay i {
+        font-size: 25px;
+    }
+    
+    .pay span {
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    /* payment part end */
+    /* subscribe part start */
+    
+    #subscribe {
+        padding: 40px 0;
+        background-color: #37383f;
+    }
+    
+    .subs h3 {
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+    }
+    
+    .subs h3 i {
+        color: orange;
+    }
+    
+    .btn-sub input {
+        width: 350px;
+        background-color: transparent;
+        border: 2px solid white;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+    }
+    
+    .btn-sub button {
+        padding: 10px 10px;
+        background-color: orange;
+        color: white;
+    }
+    
+    .subs p {
+        color: gray;
+    }
+    /* subscribe part end */
+    /* footer part start */
+    
+    #footer {
+        background-color: #58595b;
+    }
+    
+    .f-one {
+        padding: 20px 0;
+    }
+    
+    .f-one h5 {
+        font-size: 23px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: orange;
+    }
+    
+    .f-one h4 {
+        font-size: 23px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+    }
+    
+    .f-one p a {
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        transition: 0.5s;
+    }
+    
+    .f-one p a:hover {
+        color: orange;
+    }
+    
+    .fabb-text span {
+        color: gray;
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .fabb-text p {
+        color: black;
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    /* footer part end */
